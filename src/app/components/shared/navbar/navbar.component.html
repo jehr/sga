@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.jpg" alt="" width="60" height="40">
+        </a>
+    
+      <div class=" d-flex" id="">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" aria-current="page" [routerLink]="['home']" >Home</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['about']"></a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['products']">Productos</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['productsR']">¿Como lo hacemos?</a>
+          </li>
+         
+        </ul>
+        
+      </div>
+    </div>
+  </nav>

@@ -1,0 +1,14 @@
+.row {
+    padding-top: 10px;
+}
+
+.title-2{
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: darkslategrey;
+}

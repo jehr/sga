@@ -1,0 +1,16 @@
+footer {
+    background-color: #0D7E02;
+    color: #fff;
+}
+
+.icon {
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 100px;
+    padding: 10px;
+}
+
+i{
+    cursor: pointer;
+}

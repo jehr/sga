@@ -1,0 +1,14 @@
+h1 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.tar {
+    /* height: 150px; */
+}
